@@ -1,0 +1,32 @@
+.navbar {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(200, 161, 161);
+    align-items: center;
+    border-radius: 20px;
+}
+
+.nav-center {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#listitem:hover {
+    transition: width 0.4s ease-in;
+    text-decoration: underline;
+}
+
+.signin {
+    background-color: brown;
+
+}
+

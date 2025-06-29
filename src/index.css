@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  /* padding: 1vw 2.3vw; */
+  padding: 20px 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: max(1vw,13px);
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+
+} 
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}

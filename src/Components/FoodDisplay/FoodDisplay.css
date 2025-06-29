@@ -1,0 +1,12 @@
+.food-display {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.food-display-list {
+    display: grid;
+    margin: 30px;
+    gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}

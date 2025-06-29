@@ -1,0 +1,36 @@
+.exploreMenu {
+    background-color: rgb(rgb(224, 119, 119));
+}
+
+.explore-menu-title {
+    margin: 2vw 0vw;
+}
+
+.explore-menu-title {
+    margin: 2vw 0vw;
+}
+
+.explore-menu-list-item img {
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.foodTypeImage:hover {
+    border: rgb(241, 4, 4) solid 4px;
+}
+
+.explore-menu-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.exploreMenu-list {
+    display: flex;
+    gap: 40px;
+    overflow-x: scroll;
+}

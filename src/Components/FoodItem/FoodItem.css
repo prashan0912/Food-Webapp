@@ -1,0 +1,95 @@
+.food-item {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(139, 131, 131);
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.food-item-image-container {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+
+.food-item-info {
+    padding: 20px;
+}
+
+.food-item-img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.food-item-name-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.food-star-rating {
+    height: 1vw;
+
+}
+
+.food-item-img {
+    width: 100%;
+    height: 180px;
+    /* apne hisaab se height set karein */
+    object-fit: cover;
+    position: relative;
+    /* image ko crop karke fit karega */
+    border-radius: 15px 15px 0px 0px;
+}
+
+.food-item-name-rating {
+    font: 900;
+    font-size: larger;
+}
+
+.food-item-price {
+    font-size: x-large;
+    margin: 10px 0px;
+    color: red;
+    font: bold;
+    font: bolder;
+    font: 900;
+}
+
+.food-item {
+    position: relative;
+}
+
+.add-food {
+    position: absolute;
+    top: 140px;
+    right: 15px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.count {
+    height: 30px;
+}
+
+
+.food-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 135px;
+    right: 15px;
+    z-index: 2;
+
+}
+.food-count p{
+    padding: 2px;
+    font-size: larger;
+}

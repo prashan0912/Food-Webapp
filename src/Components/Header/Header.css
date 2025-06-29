@@ -1,0 +1,40 @@
+.header {
+    background-image: url('../../assets/headerImage.png');
+    height: 34vw;
+    background: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    position: relative;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.header-content {
+    /* color: white; */
+    margin-left: 30px auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 15%;
+    left: 8vw;
+    font-weight: 900;
+    animation: fadeIn 2s;
+    z-index: 1;
+}
+
+.header-content h2 {
+    font-size: max(4.5vw, 22px);
+}
+
+.header-content h4 {
+    font-size: x-large;
+
+}
+
+.menu-button {
+    width: 150px;
+
+}
