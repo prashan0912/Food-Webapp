@@ -5,8 +5,8 @@ import logo from '../../assets/logo.png'
 import cart from '../../assets/cart.png'
 import search from '../../assets/search.png'
 import { useState } from 'react'
-export default function Navbar() {
-    const [signin , setSignin] = useState(false);
+export default function Navbar({ setShowLogin }) {
+    const [signin, setSignin] = useState(false);
     return (
         <div>
             <div className="navbar">
@@ -27,7 +27,11 @@ export default function Navbar() {
                     <img src={cart} className="cart"
                         style={{ height: 30, width: 30 }}
                     />
-                    <button onClick={()=>setSignin(!signin)} className={signin ? "signin":""} >sign in</button>
+                    <button
+                        // onClick={() => setSignin(!signin)}
+                        onClick={() => setShowLogin(true)}
+                        // className={signin ? "signin" : ""}
+                         className="signin" >sign in</button>
                 </div>
             </div>
 

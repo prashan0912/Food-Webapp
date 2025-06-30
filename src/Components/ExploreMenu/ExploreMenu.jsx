@@ -1,7 +1,7 @@
 import React from 'react'
 import { foodtype } from '../../assets/foodType/foodtype'
 import './ExploreMenu.css'
-export const ExploreMenu = () => {
+export const ExploreMenu = ({category,setCategory}) => {
     return (
         <div>
             <div className='exploreMenu'>
@@ -12,7 +12,7 @@ export const ExploreMenu = () => {
                         foodtype.map((item, index) => {
 
                             return(
-                                <div key={index} className="explore-menu-list-item">
+                                <div key={index} className="explore-menu-list-item" onClick={()=>{setCategory(prev=>prev===item.food_name?"All":item.food_name)}}>
                                     <img className='foodTypeImage' src={item.food_img} alt=""  style={{height:200, width:200}}/>
                                     <p>{item.food_name}</p>
                                 </div>
