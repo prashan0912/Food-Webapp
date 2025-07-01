@@ -8,13 +8,11 @@ import Login from '../../Components/Login/Login';
 export const Home = () => {
 
   const [category, setCategory] = useState("All")
-  const [showLogin, setShowLogin] = useState(false)
 
   return (
     <div>
-      {showLogin ? (<Login />) : (<></>)}
-      <Login />
-      <Header setShowLogin={setShowLogin} />
+
+      <Header />
       <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay category={category} />
       <Footer />

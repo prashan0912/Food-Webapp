@@ -29,7 +29,7 @@ export const Footer = () => {
                 </div>
                 <div className="right-part">
                     <h1>Get in Touch</h1>
-                    <p>Contact:8827791234</p>
+                    <p>Contact:1231191234</p>
                     <p>Email: fooody@gmail.com</p>
                     <p> Address : Main branch atal nagar Durg</p>
                 </div>

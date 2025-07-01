@@ -1,0 +1,69 @@
+.Login-Container {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    /* width: 100%;
+    height: 100%; */
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000007b;
+    display: grid;
+}
+
+.Login-form {
+    place-self: center;
+    width: max(23vw, 330px);
+    gap: 25px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    color: #292727;
+    background-color: wheat;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-condition {
+    display: flex;
+    gap: 5px;
+}
+
+
+.login-link {
+    color: brown;
+    cursor: pointer;
+}
+
+.cross-button {
+    width: max(6px);
+    height: max(6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-taken input {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0px;
+    width: max(250px);
+
+}
+
+.input-taken {
+    gap: 20px;
+}
+
+
+.login-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button {
+    cursor: pointer;
+}
