@@ -11,7 +11,7 @@ export const Login = ({ setShowLogin }) => {
             // Enable scroll on unmount
             document.body.style.overflow = '';
         };
-    }, []);
+    }, [setShowLogin]);
 
 
 

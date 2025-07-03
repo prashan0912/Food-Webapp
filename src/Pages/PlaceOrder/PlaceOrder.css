@@ -1,0 +1,32 @@
+.order {
+    display: flex;
+    justify-content: space-around;
+}
+
+.multi-field {
+    /* display: block; */
+}
+
+.form {
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.form input {
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 0%;
+}
+
+.order-cart {
+    width: 30%;
+    
+}
+.make-payment{
+    padding: 10px;
+}
+

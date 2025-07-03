@@ -7,6 +7,7 @@ import Cart from './Pages/Cart/Cart'
 import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
 import { useState } from 'react'
 import Login from './Components/Login/Login'
+import { Payment } from './Pages/Payment/Payment'
 function App() {
 
   const [showLogin, setShowLogin] = useState(false)
@@ -14,13 +15,14 @@ function App() {
 
   return (
     <div className='app'>
-      {showLogin ? <Login setShowLogin={setShowLogin}/> : <></>}
+      {showLogin ? <Login setShowLogin={setShowLogin} /> : <></>}
       <Navbar setShowLogin={setShowLogin} />
 
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/order' element={<PlaceOrder />} />
+        <Route path='/payment' element={<Payment />} />
       </Routes>
     </div>
   )

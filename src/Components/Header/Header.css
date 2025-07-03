@@ -1,23 +1,23 @@
 .header {
     background-image: url('../../assets/headerImage.png');
     height: 34vw;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(251, 122, 1, 0.973);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 30px auto;
-    position: relative;
+    /* position: relative; */
     z-index: 0;
     border-radius: 30px;
+    overflow: hidden;
 }
 
 .header-content {
-    /* color: white; */
-    margin-left: 30px auto;
-    position: absolute;
+    color: white;
     display: flex;
+    padding: 100px 100px;
     flex-direction: column;
-    gap: 1.5vw;
-    max-width: 50%;
+    gap: 3vw;
+    max-width: 70%;
     bottom: 15%;
     left: 8vw;
     font-weight: 900;
@@ -26,15 +26,15 @@
 }
 
 .header-content h2 {
-    font-size: max(4.5vw, 22px);
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    /* Responsive between 1.5rem and 3rem */
 }
 
 .header-content h4 {
-    font-size: x-large;
-
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    /* Responsive between 1rem and 1.5rem */
 }
 
 .menu-button {
     width: 150px;
-
 }
